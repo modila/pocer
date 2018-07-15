@@ -174,5 +174,5 @@ email=$(echo $mailpass | cut -d "|" -f 1)
 done
 fi
 duration=$SECONDS
-printf "$YELLOW $(($duration / 3600)) hours $(($duration / 60)) minutes and $(($
+printf "$YELLOW $(($duration / 3600)) hours $(($duration / 60)) minutes and $(($))
 printf "$YELLOW=============== AlcSec - AlchaDecode =============== \n"
